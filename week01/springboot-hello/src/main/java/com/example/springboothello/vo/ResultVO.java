@@ -1,6 +1,9 @@
 package com.example.springboothello.vo;
 
+
+
 public class ResultVO<T> {
+
     private Integer code;
     private String message;
     private T data;
